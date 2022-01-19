@@ -1,0 +1,14 @@
+// AlsoLikesGraph
+digraph "alsoLikesGraphaaaaaaaaaaaa-00000000df1ad06a86c40000000feadbe" {
+	rankdir=TB size="8,5"
+	readers [label=Readers rank=readers shape=none]
+	documents [label=Documents rank=documents shape=none]
+	readers -> documents [label="Size:100k"]
+	"5cc95d811cd9f4ef" [label=f4ef shape=box]
+	"00000000deadbeef" [label=beef color=green fillcolor=green shape=box style=filled]
+	"aaaaaaaaaaaa-00000000df1ad06a86c40000000feadbe" [label=adbe color=green fillcolor=green shape=circle style=filled]
+	"bbbbbbbbbbbb-00000000df1ad06a86c4000000beecbe" [label=ecbe shape=circle]
+	"5cc95d811cd9f4ef" -> "bbbbbbbbbbbb-00000000df1ad06a86c4000000beecbe"
+	"5cc95d811cd9f4ef" -> "aaaaaaaaaaaa-00000000df1ad06a86c40000000feadbe"
+	"00000000deadbeef" -> "aaaaaaaaaaaa-00000000df1ad06a86c40000000feadbe"
+}
